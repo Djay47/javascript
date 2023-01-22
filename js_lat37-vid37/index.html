@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>AJAX-Jquery-Bootstrap-PHP</title>
+
+		<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		
+		<!-- Jquery -->
+		<script src="js/jquery.js" defer></script>
+
+		<!-- My JS -->
+		<script src="js/app.js" defer></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row mt-4 mb-4">
+				<h1>AJAX | Jquery | PHP | Bootstrap </h1>
+			</div>
+
+			<div class="row mb-3">
+				<div class="col-sm">
+					<!-- Form -->
+					<div class="row mb-3">
+						<h2>Insert Data Pelanggan</h2>
+					</div>
+
+					<div class="row">
+						<form>
+							<div class="mb-3">
+								<label for="idpelanggan" class="form-label">ID Pelanggan</label>
+								<input type="text" class="form-control" id="idpelanggan">
+							</div>
+							<div class="mb-3">
+								<label for="pelanggan" class="form-label">Pelanggan</label>
+								<input type="text" class="form-control" id="pelanggan" required>
+							</div>
+							
+							<div class="mb-3">
+								<label for="alamat" class="form-label">Alamat</label>
+								<input type="text" class="form-control" id="alamat" required>
+							</div>
+							
+							<div class="mb-3">
+								<label for="noTelp" class="form-label">No. Telepon</label>
+								<input type="text" class="form-control" id="noTelp" required>
+							</div>
+							
+							<button type="submit" id="simpan" class="btn btn-primary">Simpan</button>
+						</form>
+					</div>
+				</div>
+
+				<div class="col-sm">
+					<!-- Table -->
+					<div class="row mb-3">
+						<h2>Data Pelanggan</h2>
+					</div>
+
+					<div class=>
+						<table class="table table-bordered">
+							<thead>
+								<tr>
+									<th>No</th>
+									<th>Pelanggan</th>
+									<th>Alamat</th>
+									<th>No. Telepon</th>
+									<th></th>
+								</tr>
+							</thead>
+							<tbody>
+								
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+
+			<div class="row" id="message"></div>
+		</div>
+
+		<!-- Bootstrap JS -->
+		<script src="js/bootstrap.bundle.min.js"></script>
+	</body>
+</html>

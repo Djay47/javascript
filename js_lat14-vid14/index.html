@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>JavaScript - DOM Event</title>
+	</head>
+	
+	<body>
+		<div class="container">
+			<div style="margin-bottom: 20px" >
+				<p class="opt1" onclick="select(this.innerHTML)">Option 1</p>
+				<p class="opt1" onclick="select(this.innerHTML)">Option 2</p>
+				<p class="opt1" onclick="select(this.innerHTML)">Option 3</p>
+				<p class="info"></p>
+			</div>
+
+			<hr>
+
+			<button onclick="displayContent1()">Content 1</button>
+			<div class="content1">
+				<h1 class="head1"></h1>
+				<p class="para1"></p>
+			</div>
+
+			<button onclick="displayContent2()">Content 2</button>
+			<div class="content2">
+				<h1 class="head2"></h1>
+				<p class="para2"></p>
+			</div>
+
+			<button id="show">Content 3</button>
+			<div class="content3">
+				<h1 class="head3"></h1>
+				<p class="para3"></p>
+			</div>
+		</div>
+		
+		<script src="script.js"></script>
+	</body>
+</html>

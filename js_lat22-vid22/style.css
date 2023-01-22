@@ -1,0 +1,33 @@
+/*universal style*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: georgia;
+}
+	
+	/*style untuk bagian Display dan Produk*/
+/*style Display dan Produk untuk Mobile*/
+
+.produk-content {
+	text-align: center;
+	margin: 20px;
+}
+
+.image img{
+	display: block;
+	margin: auto;
+}
+
+.image {
+	height: 200px;
+}
+
+/*style Display dan Produk yang berubah saat ditampilkan pada Desktop*/
+@media (min-width: 400px) {
+	.produk {
+		width: 1000px;
+		margin: auto;
+		display: flex;
+	}
+}

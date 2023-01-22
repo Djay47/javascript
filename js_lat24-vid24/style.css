@@ -1,0 +1,45 @@
+/*universal style*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: georgia;
+}
+	
+	/*style untuk bagian Display dan Produk*/
+/*style Display dan Produk untuk Mobile*/
+
+.produk-content {
+	text-align: center;
+	padding: 20px;
+}
+
+.image {
+	height: 200px;
+}
+
+.image img{
+	display: block;
+	margin: auto;
+}
+
+.harga {
+	margin: 10px 0px;
+}
+
+.btn-beli {
+	margin-top: 10px;
+	padding: 10px 15px;
+}
+
+/*style Display dan Produk yang berubah saat ditampilkan pada Desktop*/
+@media (min-width: 400px) {
+	.produk {
+		width: 800px;
+		margin: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		border: solid black 1px;
+	}
+}
